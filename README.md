@@ -3,7 +3,7 @@
 [![PyPI](https://img.shields.io/badge/pip%20install-micrograd__hk-blue)](https://pypi.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
-
+![Image](https://raw.githubusercontent.com/hariomlohardev/micrograd-hk/main/images/img)
 A tiny autograd engine built on top of NumPy for fast, matrix-driven backpropagation.
 
 This package implements a minimal `Value` computation graph (inspired by [micrograd](https://github.com/karpathy/micrograd)), but instead of scalar-by-scalar autograd, everything is vectorized over full NumPy matrices — so training is significantly faster.
