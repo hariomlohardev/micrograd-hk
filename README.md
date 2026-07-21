@@ -5,6 +5,8 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hariomlohardev/micrograd-hk/blob/main/demo.ipynb)
 
+<img src="https://raw.githubusercontent.com/hariomlohardev/micrograd-hk/main/images/img.png" width="300">
+
 A tiny autograd engine built on top of NumPy for fast, matrix-driven backpropagation.
 
 This package implements a minimal `Value` computation graph (inspired by [micrograd](https://github.com/karpathy/micrograd)), but instead of scalar-by-scalar autograd, everything is vectorized over full NumPy matrices — so training is significantly faster.
