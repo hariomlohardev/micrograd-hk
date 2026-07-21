@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "micrograd-hk"
+version = "0.1.1"
+description = "A tiny autograd engine with a MODIFIED Adam optimizer"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    { name="Hariom Lohat", email="hariomlohar.new@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "numpy>=1.20.0",
+    "matplotlib>=3.4.0",
+]
+
+[project.optional-dependencies]
+progress = ["tqdm>=4.0.0"]
+
+[project.urls]
+Homepage = "https://github.com"
+Repository = "https://github.com"
+"Bug Tracker" = "https://github.com/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/micrograd_hk"]
