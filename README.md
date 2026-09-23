@@ -172,4 +172,4 @@ model = Trainer.load_model("trained_mlp.pkl", blueprint)
 
 ## 📄 License
 
-MIT © [Hariom Lohat](mailto:hariomlohar.new@gmail.com)
+MIT © [Hariom Lohar](mailto:hariomlohar.new@gmail.com)
